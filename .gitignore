@@ -1,0 +1,38 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+asciiarena_client
+asciiarena_server
+test_game
+test_render
+
+# macOS
+.DS_Store
+._*
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Debug files
+*.dSYM/
+core
+vgcore.*
+
+# Temporary files
+*.log
+*.tmp
+
+# LaTeX
+*.aux
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
